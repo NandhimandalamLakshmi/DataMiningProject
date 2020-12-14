@@ -10,7 +10,7 @@ Technology Stack: Python, Apache Flask, PythonAnywhere
 How to execute:
 
 	1. Open up command prompt and navigate to the folder where you want to save the project and do $git clone https://github.com/NandhimandalamLakshmi/DataMiningProject
-	2. Size of multinominalNB.pickle was large so I have Zipped it. After cloning Unzip multinominalNB.pickle
+	2. Size of multinomialNB.pickle was large so I have Zipped it. After cloning Unzip multinominalNB.pickle
 	3. Install Flask
 	4. Make sure main.py, NaiveBayes.py, multinominalNB.pickle, TfidfVec.pickle files are present in the desired folder. Also there must be templates folder and inside it, index.html and result.html must be present
 	5. Execute $python main.py
