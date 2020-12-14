@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rating Prediction</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <style>
+  .search {
+    width: 100%;
+    position: relative
+  }
+  
+  .searchTerm {
+    float: left;
+    width: 50%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+    font-weight: bold;
+  }
+  
+  .searchButton {
+    position: absolute;  
+    width: 100px;
+    height: 36px;
+    border: 3px solid #00B4CC;
+    background: none;
+    text-align: center;
+    color: rgb(10, 9, 9);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+      
+  body{
+    background-color:rgba(202, 160, 160, 0.151);
+    font-family: 'Open Sans', sans-serif;
+  }
+  </style>
+ 
+</head>
+<body>
+  <h1> Predict Rating from Review</h1>
+    <div id="search" class="divs" style="display: block">
+        <form method="POST" id="form">
+            <input type="text" class="searchTerm" placeholder="Enter your review here!!!!!!!" name="text" id="user_input">
+            <button type="submit" class="searchButton" id="sub" value="submit"> Submit
+              <i class="fa fa-search"></i>
+           </button>
+        </form>
+     </div>
+</body>
+</html>
